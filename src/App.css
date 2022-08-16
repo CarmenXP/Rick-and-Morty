@@ -1,0 +1,132 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  box-sizing: border-box;
+}
+.App{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(43, 45, 59);
+  color: aliceblue;
+}
+
+.image{
+  width: 100vw;
+  max-height: 300px;
+}
+.image  img{
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: 100% 2%;
+  
+}
+/*input*/
+form{
+  padding: 25px 0px;
+}
+input{
+  width: 200px;
+  height: 25px;
+}
+input, button{
+  padding: 5px;
+  border: none;
+}
+button{
+  background-color: rgb(174, 174, 226);
+  color: aliceblue;
+  height: 35px; 
+}
+
+
+/*location*/
+.locationContent{
+  padding: 0 0 25px 0;
+ 
+  color: aliceblue;
+  text-align: center;
+}
+.locationContent span{
+  padding: 5px 20px;
+}
+/* cards*/
+
+.contentCard{
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 25px;
+  
+  
+
+}
+
+.card{
+  width: 275px;
+  border: 1px solid rgb(29, 27, 66);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: rgb(48, 48, 73);
+  box-shadow: 10px 5px 5px rgb(15, 15, 15);
+  
+}
+
+header img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+  
+}
+header span{
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background-color: rgb(37, 36, 36);
+  color: aliceblue;
+  padding: 3px;
+  border-radius: 5px;
+
+}
+.Alive{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+  display: inline-block;
+  margin: 0 3px;
+}
+.Dead{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(128, 0, 6);
+  display: inline-block;
+  margin: 0 3px;
+}
+.unknown{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(178, 182, 178);
+  display: inline-block;
+  margin: 0 3px;
+
+}
+ul{
+  margin: 10px 0 20px 0;
+}
+ul > li{
+  list-style: none;
+}
+h3{
+  padding-left: 25px;
+  margin: 12px 0;
+}
